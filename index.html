@@ -14,27 +14,35 @@
     <header>
         <div class="container">
             <div class="logo">
-                ようこそ
+                祝二十歳
             </div>
             <div class="menu">
-                <li><a href="#">めでたい</a></h1>
-                    <div class="clear"></div>
+                <li>
+                    <a href="javascript:URLOpen('https://unityroom.com/games/hupot')" class="elem">めでたい</a>
+                    <a href="javascript:URLOpen('https://unityroom.com/games/gumi_factory')" class="elem">めでてぇ</a>
+                    <a href="javascript:ShowText('機能しないよ');" class="elem">Web拍手</a>
+                </li>
             </div>
         </div>
     </header>
     <main>
-        <div class="rainbow">はたちおめでとう！</div>
-        <img
-            style="width: inherit;"
-            src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdev-yakuza.github.io%2F{{ page.url }}&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"
-            alt="hit count image"
-        />
+        <div id="main_text">
+            <div id="rainbow">成人おめでとう！</div>
+        </div>
+        <div id="sub_text">
+            え？成人は１８歳になった？<br>
+            じゃあ...<br>
+        </div>
+        <button id="fix_btn" onclick="FixText();">直す</button>
     </main>
     <footer>
-        <div class="btns">
-            <div class="btn">
-                <a href="javascript:ShowText();" class="btn btn--webClap btn--cubic">Web拍手</a>
-            </div>
+        <div class="hit">
+            <img
+                class="hit_img"
+                style="width: inherit;"
+                src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fdev-yakuza.github.io%2F{{ page.url }}&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"
+                alt="hit count image"
+            />
         </div>
     </footer>
     <script src="main.js"></script>

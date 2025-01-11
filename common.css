@@ -17,37 +17,10 @@ body {
   font-family: "Segoe UI";
 }
 
-.logo {
-  float: left;
-  color: white;
-  font-size: 34px;
-  padding: 9px 12px;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-main{
-  height: 1000px;
-}
-
-.rainbow{
-  background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-size: 500%;
-  font-weight: bold;
-  white-space: nowrap;
-  display: inline-block;
-}
-@keyframes example4{
-  100% { background-position: 200%; }
-} 
-
-.clear {
-  float: clear;
+/* ヘッダー */
+header {
+  background-color: #334;
+  height: 65px;
 }
 
 a {
@@ -55,45 +28,16 @@ a {
   color: white;
 }
 
-a.btn,
-button.btn {
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1.5;
-  position: relative;
-  display: inline-block;
-  padding: 1rem 4rem;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-  color: #212529;
-  border-radius: 0.5rem;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-a.btn--webClap {
-  color: #000;
-  background-color: #fff100;
-  border-bottom: 5px solid #ccc100;
-}
-
-a.btn--webClap:hover {
-  margin-top: 3px;
-  color: #000;
-  background: #fff20a;
-  border-bottom: 2px solid #ccc100;
-}
-
-header {
-  background-color: #334;
-  height: 65px;
+.logo {
+  float: left;
+  color: white;
+  font-size: 34px;
+  padding: 9px 12px;
 }
 
 .menu {
@@ -107,6 +51,40 @@ header {
   display: block;
 }
 
+.menu a{
+  padding: 10px;
+}
+
+/* メイン */
+main{
+  height: 35rem;
+}
+
+#main_text{
+  padding: 1rem;
+}
+
+#rainbow{
+  background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 500%;
+  font-weight: bold;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+#sub_text{
+  font-weight: 400;
+  padding: 1rem;
+}
+
+#fix_btn{
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+}
+
+/* フッター */
 footer {
   width: 100%;
   height: 50px;
@@ -114,10 +92,12 @@ footer {
   /* min-height: calc(100vh - 50px); */
 }
 
-.btns {
+.hit{
+  height: auto;
   background: #44aa33;
 }
 
-.btn {
-  
+.hit_img{
+  height: 2rem;
+  padding: 1rem;
 }
