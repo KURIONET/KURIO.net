@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+* {
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+html {
+  height: 0;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Segoe UI";
+}
+
+/* ヘッダー */
+header {
+  background-color: #334;
+  height: 65px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  color: white;
+  font-size: 34px;
+  padding: 9px 12px;
+}
+
+.menu {
+  list-style: none;
+  color: white;
+}
+
+.menu li {
+  float: right;
+  padding: 21px 15px;
+  display: block;
+}
+
+.menu a{
+  padding: 10px;
+}
+
+/* メイン */
+.main_area{
+  height: 45rem;
+  position: relative;
+}
+
+#main_text{
+  padding: 1rem;
+}
+
+#rainbow{
+  background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 500%;
+  font-weight: bold;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.sub_text{
+  font-weight: 400;
+  padding: 1rem;
+}
+
+#fix_btn{
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+}
+
+.img_area{
+  padding: 1rem;
+}
+
+.hit_img{
+  width: 8rem;
+  padding: 1rem;
+  /* float: right; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* フッター */
+footer {
+  width: 100%;
+  background: #44aa33;
+  min-height: 50px;
+}
+
+.copyright{
+  height: auto;
+}
